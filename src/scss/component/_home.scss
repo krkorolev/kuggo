@@ -1,0 +1,135 @@
+.home {
+  padding-bottom: 70px;
+  .home__backgroundImg {
+    background-image: url("../../assets/back.png");
+    background-repeat: no-repeat;
+    background-position: 32px 39px;
+    width: 1417px;
+    height: 481px;
+  }
+  .home__info {
+    position: absolute;
+    top: -400px;
+    max-width: 615px;
+    color: #fff !important;
+
+    & span {
+      display: block;
+      text-align: center;
+      width: 84px;
+      height: 24px;
+
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      color: #fff;
+
+      border: 1px solid #ffffff;
+      border-radius: 5px;
+      margin-bottom: 35px;
+    }
+
+    & h1 {
+      font-weight: 600;
+      font-size: 35px;
+      line-height: 51px;
+      text-transform: uppercase;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    & p {
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 29px;
+      color: #fff;
+      margin-bottom: 40px;
+    }
+    & button {
+      width: 177px;
+      height: 53px;
+      border-radius: 5px;
+      cursor: pointer;
+
+      font-size: 16px;
+      line-height: 23px;
+      text-align: center;
+      color: #6f73ee;
+    }
+  }
+  .home__advantages {
+    display: flex;
+    justify-content: space-between;
+
+    & dl {
+      & dt {
+        font-size: 25px;
+        line-height: 36px;
+        text-transform: uppercase;
+      }
+      & dd {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 23px;
+      }
+    }
+    .yandex__reviews {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+
+      width: 190px;
+      height: 76px;
+
+      background: #ffffff;
+      border: 1px solid rgba(93, 108, 123, 0.1);
+      border-radius: 5px;
+
+      & b {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 17px;
+        padding-right: 27px;
+        padding-top: 14px;
+        position: relative;
+
+        color: #5d6c7b;
+        &::after {
+          content: "";
+          display: block;
+          position: absolute;
+
+          background-image: url("../../assets/home/yandex.svg");
+          background-repeat: no-repeat;
+          top: 11px;
+          left: -70px;
+          width: 56px;
+          height: 56px;
+        }
+      }
+      & span {
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 36px;
+        text-transform: uppercase;
+
+        color: #282739;
+        padding-right: 45px;
+        position: relative;
+
+        &::after {
+          content: "";
+          display: block;
+          position: absolute;
+
+          background-image: url("../../assets/home/star.svg");
+          background-repeat: no-repeat;
+          top: 11px;
+          left: -19px;
+          width: 14px;
+          height: 14px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.favorites {
+    padding-bottom: 50px;
+  & h2 {
+    color: var(--black, #282739);
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+  }
+  .favorites__empty {
+    margin: 0 auto;
+    padding: 100px;
+    text-align: center;
+
+& h3 {
+    font-size: 35px;
+    text-transform: uppercase;
+
+}
+& p {
+    font-size: 25px;
+    
+}
+  }
+}

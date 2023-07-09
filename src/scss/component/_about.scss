@@ -1,0 +1,96 @@
+.about {
+  margin-top: 113px;
+  position: relative;
+  padding-bottom: 100px;
+  .about__backgroundImg {
+    background-image: url("../../assets/about/back.png");
+    background-repeat: no-repeat;
+    background-position: 32px 39px;
+    width: 1421px;
+    height: 499px;
+    position: absolute;
+    top: -93px;
+    left: -2px;
+  }
+
+  .about__title {
+    max-width: 474px;
+    padding-bottom: 170px;
+    padding-top: 50px;
+
+    &:after {
+      content: "";
+      background-image: url("../../assets/about/certificate.png");
+      background-repeat: no-repeat;
+      width: 457px;
+      height: 325px;
+      position: absolute;
+      top: 465px;
+      left: 694px;
+    }
+
+    & h1 {
+      color: #fff;
+      font-size: 35px;
+      font-weight: 600;
+      text-transform: uppercase;
+      padding-bottom: 35px;
+    }
+    & ul {
+      color: #fff;
+      display: flex;
+      gap: 43px;
+
+      & li {
+        font-size: 14px;
+        font-weight: 400;
+
+        min-width: 126px;
+      }
+    }
+  }
+  .about__text {
+    max-width: 565px;
+    color: #282739;
+
+    & h2 {
+      color: #282739;
+      font-size: 35px;
+      font-weight: 600;
+      text-transform: uppercase;
+      line-height: normal;
+      padding-bottom: 34px;
+    }
+    & h4 {
+      color: #282739;
+      font-size: 20px;
+      font-weight: 500;
+      padding-bottom: 20px;
+    }
+
+    & p {
+      font-size: 18px;
+      font-weight: 400;
+      padding-bottom: 35px;
+    }
+    & ul {
+      & li {
+        color: #282739;
+        font-size: 18px;
+        font-weight: 400;
+        padding-left: 35px;
+        padding-bottom: 10px;
+        position: relative;
+        &:before {
+          content: "";
+          background-image: url("../../assets/testDrive/svg/check.svg");
+          position: absolute;
+          width: 22px;
+          height: 22px;
+          left: 0px;
+          top: 2px;
+        }
+      }
+    }
+  }
+}
